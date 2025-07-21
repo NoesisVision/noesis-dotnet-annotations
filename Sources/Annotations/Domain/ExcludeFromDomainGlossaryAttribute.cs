@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace P3Model.Annotations.Domain;
+namespace Noesis.P3.Annotations.Domain;
 
 [PublicAPI]
 [AttributeUsage(AttributeTargets.All)]

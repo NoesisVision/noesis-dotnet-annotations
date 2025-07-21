@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>default</LangVersion>
-        <RootNamespace>P3Model.Annotations</RootNamespace>
+        <RootNamespace>Noesis.P3.Annotations</RootNamespace>
         <PackageId>P3Model.Annotations</PackageId>
         <Version>0.4.0</Version>
         <Authors>Marcin Markowski</Authors>
@@ -20,7 +20,7 @@
         <FileVersion>0.4.0</FileVersion>
         <PackageReleaseNotes>ExcludeFromDocs as NamespaceApplicable annotation</PackageReleaseNotes>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <AssemblyName>P3Model.Annotations</AssemblyName>
+        <AssemblyName>Noesis.P3.Annotations</AssemblyName>
         <IsPackable>true</IsPackable>
         <PackageIcon>logo.png</PackageIcon>
     </PropertyGroup>

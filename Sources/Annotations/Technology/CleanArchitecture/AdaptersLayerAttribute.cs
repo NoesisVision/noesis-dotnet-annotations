@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace P3Model.Annotations.Technology.CleanArchitecture;
+namespace Noesis.P3.Annotations.Technology.CleanArchitecture;
 
 [PublicAPI]
 public class AdaptersLayerAttribute : LayerAttribute

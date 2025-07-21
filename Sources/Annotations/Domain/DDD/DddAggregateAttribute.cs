@@ -1,7 +1,7 @@
 using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
 
-namespace P3Model.Annotations.Domain.DDD;
+namespace Noesis.P3.Annotations.Domain.DDD;
 
 /// <summary>
 /// <para>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace P3Model.Annotations.Technology;
+namespace Noesis.P3.Annotations.Technology;
 
 [PublicAPI]
 [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class)]
