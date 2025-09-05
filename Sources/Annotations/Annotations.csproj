@@ -12,9 +12,9 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>P3 Model Annotations</Title>
         <Description>P3 Model Annotations is a set of metadata attributes that you can use in you .net code to enrich it with information about domain model, people aspects, used patterns and more.</Description>
-        <PackageProjectUrl>https://github.com/P3-model/P3-model-dotnet</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/NoesisVision/P3-model</PackageProjectUrl>
         <PackageLicenseExpression>CC-BY-SA-4.0</PackageLicenseExpression>
-        <RepositoryUrl>https://github.com/P3-model/P3-model-dotnet</RepositoryUrl>
+        <RepositoryUrl>https://github.com/NoesisVision/noesis-dotnet-annotations</RepositoryUrl>
         <Company>Noesis Vision</Company>
         <AssemblyVersion>0.5.0</AssemblyVersion>
         <FileVersion>0.5.0</FileVersion>
