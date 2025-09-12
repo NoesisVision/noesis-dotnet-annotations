@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace Noesis.P3.Annotations;
+namespace NoesisVision.Annotations;
 
 [PublicAPI]
 public interface NamespaceApplicable

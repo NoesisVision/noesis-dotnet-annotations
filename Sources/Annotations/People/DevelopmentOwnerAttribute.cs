@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace Noesis.P3.Annotations.People;
+namespace NoesisVision.Annotations.People;
 
 [PublicAPI]
 [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class)]

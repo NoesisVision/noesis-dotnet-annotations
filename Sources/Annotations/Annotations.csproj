@@ -5,23 +5,24 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>default</LangVersion>
-        <RootNamespace>Noesis.P3.Annotations</RootNamespace>
-        <PackageId>P3Model.Annotations</PackageId>
-        <Version>0.5.0</Version>
-        <Authors>Noesis Vision</Authors>
+        <RootNamespace>NoesisVision.Annotations</RootNamespace>
+        <PackageId>NoesisVision.Annotations</PackageId>
+        <Version>0.1.0</Version>
+        <Authors>NoesisVision</Authors>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Title>P3 Model Annotations</Title>
-        <Description>P3 Model Annotations is a set of metadata attributes that you can use in you .net code to enrich it with information about domain model, people aspects, used patterns and more.</Description>
-        <PackageProjectUrl>https://github.com/NoesisVision/P3-model</PackageProjectUrl>
+        <Title>NoesisVision.Annotations</Title>
+        <Description>NoesisVision Annotations is a set of metadata attributes that you can use in you .net code to enrich it with information about domain model, people aspects, used patterns and more.</Description>
+        <PackageProjectUrl>https://noesis.vision</PackageProjectUrl>
         <PackageLicenseExpression>CC-BY-SA-4.0</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/NoesisVision/noesis-dotnet-annotations</RepositoryUrl>
-        <Company>Noesis Vision</Company>
-        <AssemblyVersion>0.5.0</AssemblyVersion>
-        <FileVersion>0.5.0</FileVersion>
-        <PackageReleaseNotes>Namespaces refactoring</PackageReleaseNotes>
+        <Company>NoesisVision</Company>
+        <AssemblyVersion>0.1.0</AssemblyVersion>
+        <FileVersion>0.1.0</FileVersion>
+        <PackageReleaseNotes>initial release</PackageReleaseNotes>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <AssemblyName>Noesis.P3.Annotations</AssemblyName>
+        <AssemblyName>NoesisVision.Annotations</AssemblyName>
         <IsPackable>true</IsPackable>
+        <Copyright>Noesis Vision</Copyright>
         <PackageIcon>logo.png</PackageIcon>
     </PropertyGroup>
 
@@ -30,12 +31,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="README.md" Pack="true" PackagePath="\" />
-      <None Include="..\..\logo.png">
-        <Pack>True</Pack>
-        <PackagePath/>
-        <Link>logo.png</Link>
-      </None>
+        <None Include="..\..\README.md" Pack="true" PackagePath="\" Link="README.md"/>
+        <None Include="..\..\logo.png" Pack="true" PackagePath="\" Link="logo.png"/>        
     </ItemGroup>
 
 </Project>

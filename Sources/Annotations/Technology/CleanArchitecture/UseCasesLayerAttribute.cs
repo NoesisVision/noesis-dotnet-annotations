@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace Noesis.P3.Annotations.Technology.CleanArchitecture;
+namespace NoesisVision.Annotations.Technology.CleanArchitecture;
 
 [PublicAPI]
 public class UseCasesLayerAttribute() : LayerAttribute(Name)

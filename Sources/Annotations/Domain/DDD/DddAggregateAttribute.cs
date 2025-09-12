@@ -1,7 +1,7 @@
 using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
 
-namespace Noesis.P3.Annotations.Domain.DDD;
+namespace NoesisVision.Annotations.Domain.DDD;
 
 /// <summary>
 /// <para>
