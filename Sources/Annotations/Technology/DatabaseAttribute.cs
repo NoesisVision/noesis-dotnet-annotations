@@ -3,11 +3,9 @@ using JetBrains.Annotations;
 namespace Noesis.P3.Annotations.Technology;
 
 [PublicAPI]
-[AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface)]
-public class DatabaseAttribute : Attribute
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface | AttributeTargets.Method)]
+public class DatabaseAttribute(string name) : Attribute
 {
-    public string Name { get; }
-    public string? ClusterName { get; init; }
-
-    public DatabaseAttribute(string name) => Name = name;
+    public string Name { get; } = name;
+    public string? ServerName { get; init; }
 }

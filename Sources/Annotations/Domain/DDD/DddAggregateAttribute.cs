@@ -12,4 +12,4 @@ namespace Noesis.P3.Annotations.Domain.DDD;
 /// </para>
 /// </summary>
 [PublicAPI]
-public class DddAggregateAttribute([CallerMemberName] string? name = null) : DomainBuildingBlockAttribute(name);
+public class DddAggregateAttribute([CallerMemberName] string? name = null) : DomainObjectAttribute(name);

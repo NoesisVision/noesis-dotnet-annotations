@@ -4,10 +4,8 @@ namespace Noesis.P3.Annotations.People;
 
 [PublicAPI]
 [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class)]
-public class DevelopmentOwnerAttribute : Attribute, NamespaceApplicable
+public class DevelopmentOwnerAttribute(string name) : Attribute, NamespaceApplicable
 {
-    public string Name { get; }
+    public string Name { get; } = name;
     public bool ApplyOnNamespace { get; init; }
-
-    public DevelopmentOwnerAttribute(string name) => Name = name;
 }

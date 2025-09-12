@@ -6,7 +6,7 @@ namespace Noesis.P3.Annotations.Domain;
 [AttributeUsage(AttributeTargets.Method |
                 AttributeTargets.Delegate |
                 AttributeTargets.Interface)]
-public class BehaviorAttribute(string? name = null) : Attribute, DomainPerspectiveAttribute
+public class DomainBehaviorAttribute(string? name = null) : Attribute
 {
     public string? Name { get; } = name;
 }

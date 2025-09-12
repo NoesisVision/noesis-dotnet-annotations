@@ -10,7 +10,7 @@ namespace Noesis.P3.Annotations.Domain;
                 AttributeTargets.Delegate |
                 AttributeTargets.Enum |
                 AttributeTargets.Module)]
-public class DomainModuleAttribute(string? name = null) : Attribute, NamespaceApplicable, DomainPerspectiveAttribute
+public class DomainModuleAttribute(string? name = null) : Attribute, NamespaceApplicable
 {
     public string? Name { get; } = name;
     public bool ApplyOnNamespace { get; init;  }

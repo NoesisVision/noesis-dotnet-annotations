@@ -4,9 +4,7 @@ namespace Noesis.P3.Annotations.Technology;
 
 [PublicAPI]
 [AttributeUsage(AttributeTargets.Assembly)]
-public class TierAttribute : Attribute
+public class TierAttribute(string name) : Attribute
 {
-    public string Name { get; }
-
-    public TierAttribute(string name) => Name = name;
+    public string Name { get; } = name;
 }

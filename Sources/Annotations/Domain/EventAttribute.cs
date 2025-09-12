@@ -3,5 +3,5 @@ using JetBrains.Annotations;
 namespace Noesis.P3.Annotations.Domain;
 
 [PublicAPI]
-[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct)]
-public class EventAttribute : Attribute, DomainPerspectiveAttribute;
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Interface)]
+public class EventAttribute : Attribute;

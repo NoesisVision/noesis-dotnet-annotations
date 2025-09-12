@@ -3,8 +3,8 @@ using JetBrains.Annotations;
 namespace Noesis.P3.Annotations.Technology;
 
 [PublicAPI]
-[AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface)]
-public class ExternalSystemAttribute(string? name = null) : Attribute
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface | AttributeTargets.Method)]
+public class ExternalSystemAttribute(string name) : Attribute
 {
-    public string? Name { get; } = name;
+    public string Name { get; } = name;
 }

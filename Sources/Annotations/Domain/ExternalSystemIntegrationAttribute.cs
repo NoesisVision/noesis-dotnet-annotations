@@ -10,7 +10,7 @@ namespace Noesis.P3.Annotations.Domain;
                 AttributeTargets.Delegate |
                 AttributeTargets.Method)]
 public class ExternalSystemIntegrationAttribute(string externalSystemName, string? name = null)
-    : Attribute, DomainPerspectiveAttribute
+    : Attribute
 {
     public string ExternalSystemName { get; } = externalSystemName;
     public string? Name { get; } = name;

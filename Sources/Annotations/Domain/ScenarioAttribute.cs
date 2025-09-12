@@ -10,7 +10,7 @@ namespace Noesis.P3.Annotations.Domain;
                 AttributeTargets.Method |
                 AttributeTargets.Field |
                 AttributeTargets.Property)]
-public class ScenarioAttribute(string? name = null) : Attribute, DomainPerspectiveAttribute
+public class ScenarioAttribute(string? name = null) : Attribute
 {
     public string? Name { get; } = name;
 }

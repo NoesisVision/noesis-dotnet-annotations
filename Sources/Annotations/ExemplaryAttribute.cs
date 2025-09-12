@@ -9,4 +9,7 @@ namespace Noesis.P3.Annotations;
                 AttributeTargets.Enum |
                 AttributeTargets.Delegate |
                 AttributeTargets.Method)]
-public class ExemplaryAttribute : Attribute { }
+public class ExemplaryAttribute : Attribute, NamespaceApplicable
+{
+    public bool ApplyOnNamespace { get; init; }
+}

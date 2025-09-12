@@ -8,9 +8,7 @@ namespace Noesis.P3.Annotations.People;
                 AttributeTargets.Interface |
                 AttributeTargets.Delegate |
                 AttributeTargets.Method)]
-public class ActorAttribute : Attribute
+public class ActorAttribute(string name) : Attribute
 {
-    public string Name { get; }
-
-    public ActorAttribute(string name) => Name = name;
+    public string Name { get; } = name;
 }

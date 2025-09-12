@@ -9,7 +9,7 @@ namespace Noesis.P3.Annotations.Domain;
                 AttributeTargets.Enum |
                 AttributeTargets.Delegate |
                 AttributeTargets.Method)]
-public class DomainBuildingBlockAttribute(string? name = null) : Attribute, DomainPerspectiveAttribute
+public class DomainObjectAttribute(string? name = null) : Attribute
 {
     public string? Name { get; } = name;
 }

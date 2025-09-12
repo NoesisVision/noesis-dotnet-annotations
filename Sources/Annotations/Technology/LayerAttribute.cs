@@ -4,10 +4,8 @@ namespace Noesis.P3.Annotations.Technology;
 
 [PublicAPI]
 [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class)]
-public class LayerAttribute : Attribute, NamespaceApplicable
+public class LayerAttribute(string name) : Attribute, NamespaceApplicable
 {
-    public string Name { get; }
+    public string Name { get; } = name;
     public bool ApplyOnNamespace { get; init; }
-
-    public LayerAttribute(string name) => Name = name;
 }

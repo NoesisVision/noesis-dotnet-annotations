@@ -9,4 +9,4 @@ namespace Noesis.P3.Annotations.Domain;
                 AttributeTargets.Enum |
                 AttributeTargets.Delegate |
                 AttributeTargets.Method)]
-public class PublicContractAttribute : Attribute, DomainPerspectiveAttribute;
+public class PublicContractAttribute : Attribute;

@@ -9,4 +9,7 @@ namespace Noesis.P3.Annotations.Domain;
                 AttributeTargets.Enum |
                 AttributeTargets.Delegate |
                 AttributeTargets.Method)]
-public class CoreConceptAttribute : Attribute, DomainPerspectiveAttribute;
+public class CoreConceptAttribute : Attribute, NamespaceApplicable
+{
+    public bool ApplyOnNamespace { get; init; }
+}
